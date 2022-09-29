@@ -1,0 +1,69 @@
+,Entity,test,ICD_code
+0,abscess,['computed tomography' 'medical ultrasonography'],"['0060', '0061', '0063', '0064', '0065', '01330', '01331', '01332', '01333', '01334', '01335', '01336', '01350', '01351', '01352', '01353', '01354', '01355', '01356', '3240', '3241', '3249', '326', '38301', '37055', '36004', '475', '47822', '47824', '56722', '56731', '56738', '5225', '5227', '5902', '5283', '5401', '6164', '5970', '6040', '60499', '68100', '68110', '6819', '6820', '6821', '6822', '6823', '6824', '6825', '6826', '6827', '6828', '6829', '6850', '6851']"
+1,acute poliomyelitis,['Q25438941' 'physical examination' 'viral culture'],['138']
+2,amebiasis,"['polymerase chain reaction' 'colonoscopy' 'rectoscopy' 'ELISA'
+ 'optical microscopy' 'immunofluorescence microscopy'
+ 'physical examination' 'complete blood count' 'stool test']","['0061', 'V022']"
+3,anthrax,"['complete blood count' ""Ascoli's test"" 'microbiological culture'
+ 'physical examination' 'optical microscope']","['0220', '0221', '0222', '0228', '4845', 'V0181', '79531', 'V7182']"
+4,babesiosis,"['blood film' 'polymerase chain reaction' 'serology'
+ 'immunofluorescence microscopy']",[]
+5,bacterial infection,"['polymerase chain reaction' 'microbiological culture' 'ELISA'
+ 'optical microscopy' 'physical examination' 'complete blood count']","['04181', '04183', '04184', '04185', '04189']"
+6,balantidiasis,['colonoscopy' 'rectoscopy' 'optical microscope' 'biopsy' 'stool test'],[]
+7,brucellosis,"['polymerase chain reaction' 'microbiological culture' 'ELISA'
+ 'medical history' 'physical examination' 'passive hemagglutination test'
+ 'complement fixation test' 'Agglutination Test']",['0238']
+8,chancroid,"['polymerase chain reaction' 'microbiological culture'
+ 'physical examination' 'optical microscope']",[]
+9,chickenpox,"['Direct fluorescent antibody' 'real-time polymerase chain reaction'
+ 'ELISA' 'physical examination']",[]
+10,cholera,['microbiological culture' 'physical examination' 'complete blood count'],"['0010', '0011', '9782', 'V020', 'V010', 'V030', 'V060', 'V740']"
+11,chronic intestinal amebiasis,"['polymerase chain reaction' 'colonoscopy' 'rectoscopy' 'ELISA'
+ 'optical microscopy' 'immunofluorescence microscopy'
+ 'physical examination' 'complete blood count' 'stool test']",[]
+12,cowpox,['physical examination'],['0511']
+13,cryptosporidiosis,"['complete blood count' 'stool test' 'polymerase chain reaction' 'ELISA'
+ 'optical microscopy' 'physical examination']",[]
+14,cutaneous leishmaniasis,"['ELISA' 'medical history' 'immunofluorescence microscopy'
+ 'physical examination' 'optical microscope' 'complement fixation test']",['0855']
+15,cyclosporiasis,['polymerase chain reaction' 'stool test'],[]
+16,diphtheria,"['microbiological culture' 'physical examination' ""Elek's test""]","['0320', '0321', '0322', '0323', '03281', '03285', '03289', 'V065', '9785', 'V024', 'V035', 'V061', 'V743']"
+17,erysipelas,['physical examination'],[]
+18,food poisoning,['microbiological culture' 'complete blood count'],"['0050', '0051', '00589']"
+19,giardiasis,['immunofluorescence microscopy' 'optical microscope' 'ELISA'],[]
+20,glanders,"['physical examination' 'complete blood count' 'Mallein test'
+ 'polymerase chain reaction' 'microbiological culture']",[]
+21,granuloma inguinale,['optical microscope'],[]
+22,induced malaria,['polymerase chain reaction' 'optical microscope' 'blood film'],[]
+23,infection,['blood culture' 'microbiological culture'],"['00320', '00329', '0038', '0039', '0048', '0068', '00800', '00801', '00802', '00803', '00804', '00809', '0081', '0082', '0083', '00841', '00842', '00843', '00844', '00845', '00846', '00847', '00849', '0088', '01000', '01001', '01002', '01003', '01004', '01005', '01006', '01090', '01091', '01092', '01093', '01094', '01095', '01096', '0980', '09810', '09819', '0982', '09830', '09839', '09849', '09859', '0986', '0987', '09889', '04109', '04110', '04119', '0412', '0413', '0415', '0416', '0417', '04181', '04183', '04184', '04185', '04189', '0419', '0468', '0469', '05413', '03689', '0369', '0390', '0391', '0392', '0393', '0398', '0399', '04100', '04101', '04102', '04103', '04104', '04105', '0271', '1289', '10089', '1048', '1049', '1218', '1219', '1220', '1221', '1222', '1223', '1224', '1225', '1226', '1227', '1230', '1232', '1238', '1239', '1255', '13621', '13629', '05881', '05882', '05889', '05900', '05909', '05910', '05919', '05920', '0598', '0599', '0790', '0791', '0792', '0793', '07981', '07988', '07989', '07998', '07999', '32341', '32342', '326', '28804', '37962', '38013', '38011', '37960', '37961', '37963', '4658', '4659', '56081', '56739', '5680', '63400', '63401', '63402', '63500', '63501', '63502', '6146', '63600', '63601', '63602', '63700', '63701', '63702', '6380', '6390', '59800', '5990', '64790', '64791', '64792', '64793', '64794', '65930', '65931', '65933', '6868', '6869', '7602', '7131', '7711', '7712', '7717', '77182', '77189', 'V08', '9100', '9102', '9104', '9160', '9162', '9164', '9166', '9168', '9190', '9192', '9194', '9196', '9142', '9144', '9146', '9148', '9150', '9152', '9154', '9156', '9158', '9198', 'V754', 'V758', '9128', '9130', '9132', '9134', '9136', '9106', '9108', '9110', '9112', '9114', '9116', '9118', '9120', '9122', '9124', '9126', '73080', '73081', '73082', '73083', '73084', '73085', '73086', '73087', '73088', '99859', '99931', '99932', '99933', '99934', '73089', '73090', '73091', '73092', '73093', '73094', '73095', '73096', '73097', '73098', '73099', '67580', '67581', '67582', '67583', '67584', '67590', '67591', '67592', '67593', '67594', '67000', '67002', '67004', '67080', '67082', '67084', 'V1242', 'V1302', '9583', '9138', '9140', '9170', '9172', '9174', '9176', '9178']"
+24,leishmaniasis,"['Giemsa stain' 'polymerase chain reaction' 'hematology' 'ELISA'
+ 'physical examination']","['0850', '0851', '0852', '0853', '0854', '0855', 'V752', 'V052']"
+25,leptospirosis,"['electrocardiography' 'medical ultrasonography' 'Agglutination Test'
+ 'lumbar puncture' 'echocardiogram' 'polymerase chain reaction'
+ 'blood test' 'ELISA' 'immunofluorescence microscopy'
+ 'physical examination' 'optical microscope' 'complete blood count'
+ 'urinalysis']",[]
+26,listeriosis,"['polymerase chain reaction' 'microbiological culture' 'ELISA'
+ 'optical microscopy' 'physical examination' 'complete blood count']",[]
+27,lymphocytic choriomeningitis,"['lumbar puncture' 'polymerase chain reaction' 'ELISA'
+ 'physical examination' 'complete blood count']",[]
+28,malaria,['polymerase chain reaction' 'optical microscope' 'blood film'],"['0844', '0845', '0847', '0849', '0840', '0841', '0842', '0843', 'V751', 'E9314', 'V1203', '9614']"
+29,melioidosis,['microbiological culture' 'physical examination'],[]
+30,meningitis,"['polymerase chain reaction' 'microbiological culture'
+ 'optical microscope' 'viral culture' 'lumbar puncture'
+ 'neurological examination']","['01300', '01301', '00321', '09042', '09181', '0942', '09882', '0478', '0479', '0490', '0530', '05472', '0360', '01302', '01303', '01304', '01305', '01306', '10081', '11283', '1142', '11501', '11511', '11591', '0721', '3200', '3201', '3202', '3203', '32081', '3210', '3220', '3221', '3222']"
+31,paratyphoid fever,['polymerase chain reaction' 'microbiological culture' 'ELISA'],[]
+32,plague,"['microbiological culture' 'ELISA' 'immunofluorescence microscopy'
+ 'physical examination' 'optical microscope']","['0200', '0201', '0202', '0203', '0204', '0205', '0208', '9783', 'V033']"
+33,scarlet fever,['physical examination'],[]
+34,shigellosis,['microbiological culture' 'stool test'],[]
+35,smallpox,"['physical examination' 'passive hemagglutination test'
+ 'electron microscope']","['0502', '9790', 'V013', 'V041', 'V731']"
+36,syphilis,"['polymerase chain reaction' 'immunofluorescence microscopy'
+ 'optical microscope' 'Rapid plasma reagin'
+ 'Venereal Disease Research Laboratory test' 'Wassermann test' 'FTA-ABS']","['0900', '0901', '0902', '09040', '09049', '0905', '0906', '0907', '0909', '0910', '0911', '0912', '0913', '0914', '09169', '0917', '09189', '0919', '0920', '0929', '09389', '0939', '0943', '09489', '0949', '0958', '0959', '096', '0970', '0971', '1040', '7956']"
+37,tetanus,['microbiological culture' 'physical examination'],"['V062', 'V063', 'V065', '9784', 'V037', 'V061']"
+38,typhoid fever,"['polymerase chain reaction' 'microbiological culture' 'ELISA'
+ 'physical examination' 'Widal test' 'complete blood count']","['0021', '0022', '0023', '0029']"
+39,yaws,['immunofluorescence microscopy' 'physical examination'],"['1020', '1021', '1022', '1023', '1024', '1026', '1027', '1028', 'V746']"
