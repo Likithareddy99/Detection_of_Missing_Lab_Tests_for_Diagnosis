@@ -1,0 +1,13 @@
+SELECT distinct ?item ?itemLabel ?testLabel WHERE{
+
+    ?item wdt:P923 ?test .
+
+    ?article schema:about ?item .
+
+    ?article schema:inLanguage "en" .
+
+    ?article schema:isPartOf <https://en.wikipedia.org/>.  
+ 
+    SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+
+    }
