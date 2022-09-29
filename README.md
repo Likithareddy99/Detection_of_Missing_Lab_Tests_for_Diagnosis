@@ -6,14 +6,14 @@ MIMIC-III is a freely accesible dataset which is available on https://physionet.
 To gain access to the dataset,please perform the following steps.
 
   1. Create an account on https://physionet.org/register/
-  2. Complete required tainings 
+  2. Complete required trainings 
   3. Request access using certificate
  
-After gaining access to the MIMIC-III dataset, we used the DIAGNOSES_ICD.csv file and extracted Diagnoses and all the labtests associated with it and also NOTEEVENTS.csv file to perform Automatic Diagnosis
+After gaining access to the MIMIC-III dataset, we used the D_ICD_DIAGNOSES.csv file and extracted Diagnoses and all the labtests associated with it and also NOTEEVENTS.csv file to perform Automatic Diagnosis
 
 Follow the steps for replicating our results:
 
-step 1: Load the CSV file DIAGNOSES_ICD.csv to the Lab_Tests.ipynb file.
+step 1: Load the CSV file D_ICD_DIAGNOSES.csv to the Lab_Tests.ipynb file.
 We extracted Diagnoses and all the related labtests associated with it in different batches, each of around 10000 records (this can be changed as per your preference in the code. Alternatively you can also generate the dataset using SPARQL queries in wikidata Query.txt
 
 Step 2:Load the CSV file NoteEvents or you can manually enter summaries of patient behaviour in the Automatic_diagnosis.ipynb to generate all the possible diagnoses based on patients labtests, symptoms and risk factors.
