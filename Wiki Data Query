@@ -1,0 +1,23 @@
+SELECT distinct ?item ?itemLabel ?symptomsLabel ?causeLabel ?testLabel WHERE{{
+
+    ?item ?label "{var}"@en.
+    
+    {{?item wdt:P780 ?symptoms .}}
+    
+    UNION
+    
+    {{?item wdt:P828 ?cause .}}
+    
+    UNION
+    
+    {{?item wdt:P923 ?test .}}
+    
+    ?article schema:about ?item 
+    
+    ?article schema:inLanguage "en" 
+    
+    ?article schema:isPartOf <https://en.wikipedia.org/>.
+    
+    SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en". }}
+    
+    }}
