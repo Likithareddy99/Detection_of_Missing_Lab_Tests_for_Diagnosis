@@ -1,0 +1,24 @@
+<html>
+
+<head>
+    <title>Missing Lab Tests</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="static/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='app.css') }}">
+</head>
+
+<body>
+    <div class="App">
+        <div class="main-container">
+            <h1>Search for lab tests</h1>
+            <form action="/data" method="POST">
+                <div class='input-wrapper'>
+                    <textarea type="text" class='query-input' name="Input" placeholder="Enter Medical Record"></textarea>
+                    <button type="submit" class="submit-button">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

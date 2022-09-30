@@ -1,0 +1,79 @@
+.App {
+    /* text-align: center; */
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+body {
+    background-image: url("./bg_1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    backdrop-filter: blur(5px);
+}
+
+.query-input {
+    width: 100%;
+    border: 1px solid #d6d6d6;
+    outline: none;
+    border-radius: 9px;
+    padding: 10px 20px 10px 40px;
+    position: relative;
+    transition: 0.3s;
+    height: 30px;
+    font-size: 22px;
+    height: 50px;
+    font-weight: 500;
+    background-image: url("./search.png");
+    background-origin: content-box;
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    background-position-x: -30px;
+}
+
+.query-input:focus {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    border: 1px solid #6a78cd;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-wrapper {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.submit-button {
+    width: 330px;
+    height: 50px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 6px;
+    color: white;
+    background-color: #6a78cd;
+    transition: 300ms ease-in-out;
+}
+
+.submit-button:hover {
+    opacity: 0.8;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.result {
+    font-size: 22px;
+}
