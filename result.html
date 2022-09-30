@@ -1,18 +1,23 @@
 <html>
+
 <head>
     <title>Missing Lab Tests</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="static/bootstrap.min.css" rel="stylesheet" media="screen">
     <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='app.css') }}">
 </head>
+
 <body>
     <div class="App">
         <div class="main-container">
-            {% for key,value in result.items() %}
             <h1>The missing lab tests to be performed are:</h1>
-            <p class="result"> {{value}}</p>
-            {% endfor %}
+            <div class="results">
+                {% for test in result %}
+                <p class="result"><span class="test-tube-emoji">🧪</span> {{test}}</p>
+                {% endfor %}
+            </div>
         </div>
     </div>
 </body>
+
 </html>
