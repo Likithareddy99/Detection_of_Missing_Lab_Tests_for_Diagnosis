@@ -20,8 +20,7 @@ Step 2:Load the CSV file NoteEvents or you can manually enter summaries of patie
 
 step 3: Use the file generated in the step 1 along with the output predicted in step 2 in Missing_labtests.ipynb to find the missing lab tests
 
-The web application can be tried on the following link:
+The web application is created using Ngrok a cross-platform application that exposes local server ports to the Internet.
 
-
-To run the web application on your local machine:
+To run the web application on your local machine run the Missing_Lab_Tests.ipynb file, a link will be generated which will take you the User Interface.
 
